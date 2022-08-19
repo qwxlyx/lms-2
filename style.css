@@ -11,11 +11,13 @@
 	color:#9c27b0;
 }
 .header{
-	width: 960px;
+
 	background: #00bcd4;
-	margin: auto;
+	margin: 100px auto;
 	text-align: center;
-	font-size: 16px
+	font-size: 16px ;
+	padding: 50px;
+
 }
 	
 .link{
@@ -24,4 +26,37 @@
 .link:hover {
 		color: #ff0000;
 		text-decoration: none;
+}
+.feedback{
+
+
+	margin: 100px auto;
+	text-align: center;
+	padding: 50px;
+	font-size: 30px;
+	background: white
+}
+.container{
+	width: 960px;
+	border: 3px solid #000000;	
+	border-radius: 250px;
+}
+.form__input{
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 400px;
+	background: white;
+	border: 1px solid;
+	font-size: 14px;
+	padding: 10px 4px;
+	
+}
+.form__button{
+	width: 400px;
+	background: black ;
+	font-size: 14px;
+	border: 0;
+	padding: 10px;
+	color: white;
 }
