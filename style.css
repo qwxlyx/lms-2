@@ -1,3 +1,24 @@
+body {
+	position: relative;
+	height: 100vh;
+	margin: 0;
+}
+body::before {
+	content: "";
+	background: url("bg2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.inner {
+	padding-top: 30px;
+}
+
 .h1{
 	color: black;
 	font-size:24px;
@@ -8,16 +29,14 @@
 	text-decoration:underline
 }
 .swag{
-	color:#9c27b0;
+	color:#000000;
 }
 .header{
-
-	background: #f9a01a;
-	margin: 100px auto;
+	
+	margin: auto;
 	text-align: center;
 	font-size: 24px ;
 	padding: 50px;
-
 }
 	
 .link{
@@ -28,25 +47,24 @@
 		text-decoration: none;
 }
 .feedback{
-
-
-	margin: 100px auto;
+	margin: 0 auto;
 	text-align: center;
 	padding: 50px;
 	font-size: 30px;
-	background: #c21af9
+	
 }
 .container{
 	width: 960px;
-	border: 3px solid #000000;	
-	border-radius: 250px;
+	
+	position: relative;
+	margin-bottom: 20px;
 }
 .form__input{
 	display: block;
 	margin: auto;
 	margin-bottom: 10px;
 	width: 400px;
-	background: #f9a01a;
+	background: #eb7020;
 	border: 1px solid;
 	font-size: 14px;
 	padding: 10px 4px;
@@ -54,7 +72,7 @@
 }
 .form__button{
 	width: 400px;
-	background: black ;
+	background: #eb7020 ;
 	font-size: 14px;
 	border: 0;
 	padding: 10px;
@@ -65,10 +83,7 @@
 	margin: auto;
 	margin-bottom: 10px;
 	width: 400px;
-	background:#f9a01a ;
-	border: 2px solid;
+	background:#eb7020;
 	font-size: 14px;
 	padding: 10px 4px;
-	
-
 }
